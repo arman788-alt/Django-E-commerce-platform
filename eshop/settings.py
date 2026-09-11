@@ -27,7 +27,12 @@ SECRET_KEY = 'django-insecure-*0*zy86-gij)=(!9v)gj$!9uu&f3w37$q6e4%2v++j++f8&+q6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "djangone-commerce-platform.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 # Application definition
 
